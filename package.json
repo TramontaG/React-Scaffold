@@ -1,0 +1,46 @@
+{
+	"name": "react-scaffold",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "parcel build ./index.html",
+		"lint": "eslint .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@fontsource/roboto": "^5.1.1",
+		"@mui/icons-material": "^6.4.6",
+		"@mui/material": "^6.4.6",
+		"@vitejs/plugin-react-swc": "^3.8.0",
+		"axios": "^1.8.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-router": "^7.2.0",
+		"styled-components": "^6.1.15"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.21.0",
+		"@rollup/plugin-commonjs": "^28.0.2",
+		"@swc/plugin-styled-components": "^7.0.0",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"babel-plugin-styled-components": "^2.1.4",
+		"eslint": "^9.21.0",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"eslint-plugin-react-refresh": "^0.4.19",
+		"globals": "^15.15.0",
+		"parcel": "^2.13.3",
+		"patch-package": "^8.0.0",
+		"process": "^0.11.10",
+		"typescript": "~5.7.3",
+		"typescript-eslint": "^8.25.0",
+		"vite": "^6.2.0"
+	},
+	"alias": {
+		"src": "./src"
+	}
+}
